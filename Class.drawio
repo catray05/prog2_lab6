@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0" version="28.2.8">
   <diagram name="Page-1" id="zBZ1Y3Dk4Rv6OkUP315-">
-    <mxGraphModel dx="1527" dy="1539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="light-dark(#ffffff, #000000)" math="0" shadow="0">
+    <mxGraphModel dx="1562" dy="1558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="light-dark(#ffffff, #000000)" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -68,7 +68,7 @@
         <mxCell id="OLHDLf0e7998_eMqOGTx-39" value="Course" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="520" width="180" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="OLHDLf0e7998_eMqOGTx-40" value="&lt;div&gt;- CourseName : string&lt;/div&gt;&lt;div&gt;- InstructorName : string&lt;/div&gt;&lt;div&gt;- NumberofLessons : int&lt;/div&gt;&lt;div&gt;-Students:ArrayList&amp;lt;Students&amp;gt;&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="OLHDLf0e7998_eMqOGTx-39">
+        <mxCell id="OLHDLf0e7998_eMqOGTx-40" value="&lt;div&gt;- CourseName : string&lt;/div&gt;&lt;div&gt;- InstructorName : string&lt;/div&gt;&lt;div&gt;- NumberofLessons : int&lt;/div&gt;&lt;div&gt;-Students:ArrayList&amp;lt;String&amp;gt;&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="OLHDLf0e7998_eMqOGTx-39">
           <mxGeometry y="26" width="180" height="104" as="geometry" />
         </mxCell>
         <mxCell id="OLHDLf0e7998_eMqOGTx-41" value="" style="line;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="OLHDLf0e7998_eMqOGTx-39">
@@ -218,6 +218,22 @@
         </mxCell>
         <mxCell id="OLHDLf0e7998_eMqOGTx-85" value="0 .. *" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="700" y="570" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OLHDLf0e7998_eMqOGTx-86" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;QUESTION&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- Qnumber : int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- QContent :string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- QMarks : float&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ CreateNewQeustion()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="760" y="700" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="OLHDLf0e7998_eMqOGTx-87" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="OLHDLf0e7998_eMqOGTx-86" target="OLHDLf0e7998_eMqOGTx-79">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1021" y="650" as="sourcePoint" />
+            <mxPoint x="840" y="650" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OLHDLf0e7998_eMqOGTx-88" value="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="850" y="618" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OLHDLf0e7998_eMqOGTx-89" value="0 .. *" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="850" y="670" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
